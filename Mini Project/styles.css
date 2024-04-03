@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+nav {
+  position: sticky; /* Navbar akan menempel di bagian atas saat di-scroll */
+  top: 0; /* Mengatur navbar di bagian paling atas */
+  z-index: 1000; /* Menempatkan navbar di atas konten lain */
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+nav a:hover {
+  color: #ccc;
+}
+section {
+  padding: 20px;
+  text-align: center;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
